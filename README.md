@@ -1,6 +1,6 @@
 # tictactoe
 This repository contain source code for a college mini project termed TICTACTOE. Assembled using C programming.
-In this mini project we have made a game tic tac toe using C programming. This game works on grid of 3X3 with 2 players on board. User and computer are the two only players.
+In this mini project we have made a tic tac toe game using C programming. This game works on grid of 3X3 with 2 players on board. User and computer are the two only players.
 After the chance of user, computer have to play it's chance on the blank grid.
 Features-
 1- User friendly interface.
