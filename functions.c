@@ -108,6 +108,8 @@ void showResult(char **grid, char winner, char PLAYER, char COMPUTER)
       printf("\nSEEMS LIKE YOU ARE A BAD PLAYER");
       printf("\nYOU LOSE ): TRY AGAIN");
     }
+    else
+      printf("\nYOU LOSE ):");
   }
   else
     printf("\nIT'S A TIE\nDon't worry try another chance");
