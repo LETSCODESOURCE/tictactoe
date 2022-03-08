@@ -55,11 +55,9 @@ int main()
     showResult(grid, winner, PLAYER, COMPUTER);
     if (winner == PLAYER)
       P_SCORE += 10;
-    else
-    {
-      printf("\n\n\n----SESSION SCORE CHART----\n\n\n");
+    else if (winner == COMPUTER)
       C_SCORE += 10;
-    }
+    printf("\n\n\n----SESSION SCORE CHART----\n\n\n");
     printf("PLAYER -> %d\t\t\tCOMPUTER ->%d", P_SCORE, C_SCORE);
     printf("\nDo you wanna play again? (y/n) : ");
     getchar();
